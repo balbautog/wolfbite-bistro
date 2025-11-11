@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WolfBite Bistro - Premium Dining Experience</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>WolfBite Bistro</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="customer-login.html" class="nav-link">Login</a>
+                <a href="customer-signup.html" class="nav-link signup-btn">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to WolfBite Bistro</h1>
+            <p>Experience the wild flavors of premium cuisine</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section id="about" class="mission-section">
+        <div class="container">
+            <h2>Our Mission & Vision</h2>
+            <div class="mission-content">
+                <div class="mission-card">
+                    <h3>Our Mission</h3>
+                    <p>"To deliver exceptional dining experiences through authentic flavors and warm hospitality, bringing the spirit of the wild to every plate."</p>
+                </div>
+                <div class="mission-card">
+                    <h3>Our Vision</h3>
+                    <p>"To be the premier destination for culinary adventurers seeking bold, memorable meals in an atmosphere that celebrates nature's raw beauty."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <div class="map-embed">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d248.097217414302!2d120.90613343417737!3d13.696543300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDQxJzQ3LjUiTiAxMjDCsDU0JzI2LjFF!5e0!3m2!1sen!2sph!4v1700000000000" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-info">
+                    <h3>Visit WolfBite Bistro</h3>
+                    <p>📍 Location: 13°41'47.5"N 120°54'26.1"E</p>
+                    <p>🏢 Address: Coastal Road, Batangas Bay</p>
+                    <p>🕒 Hours: Mon-Sun 11:00 AM - 10:00 PM</p>
+                    <p>📞 Phone: (043) 123-4567</p>
+                    <p>📧 Email: info@wolfbitebistro.com</p>
+                    <div class="map-actions">
+                        <a href="https://maps.google.com/?q=13.6965433,120.9061334" target="_blank" class="cta-button">
+                            Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section id="menu" class="menu-preview">
+        <div class="container">
+            <h2>Featured Menu Items</h2>
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be loaded dynamically -->
+                <div class="menu-loading">Loading menu...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 WolfBite Bistro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
